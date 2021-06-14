@@ -1,0 +1,146 @@
+//HTML code
+<html>
+    <head>
+    <title>Business restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    </head> 
+    <body background="https://www.hihonor.com/content/dam/honor/global/blog/2018/take-photos-with-blurred-background-effects-using-honor-10/blog-img1-take-photos-with-blurred-background-effects-using-honor-10.jpg " style="background-repeat: no-repeat; 
+    background-size: 100% 100%;">
+        <div class="background">
+ 
+        </div>
+        <div class="one">
+                <h1>Royal restaurant</h1>
+                <img class="ani"src="https://www.oberoihotels.com/-/media/oberoi-hotels/website-images/The-Oberoi-Amarvilas-Agra/overview-jpg/Experiences-jpg/Dine-Under-the-Stars-c.jpg" alt="alter">
+         </div>
+
+         <div class="two">
+            <p class="ani1">All of the food are prepared by our trained Kitchen staff
+                            from seled glass kitchen where you can see your food made without risk of pawled 
+                            geeting involved🥪🍗
+            </p>
+         </div>
+
+         <div class="three">
+            <h2 class="ani2">If You have any issues regarding about service then just click on below button</h2>
+            <a class="btn" href="mail-to:vedantballal99@gmail.com">Send me a Mail</a>
+         </div>
+
+         <div class="four">
+
+               <h2>Special Food List</h2> 
+               <h3>So in this we have all special types of food in this below List</h3>
+           <h2 class="tom">Maharashtra</h2>
+            <ul>
+                <li>ShevBhaji</li>
+                <li>Bharit</li>
+                <li>Dalgandori</li>
+                <li>Vadapav</li>
+            </ul>
+
+            <h2 class="tom">Kolkata</h2>
+        <ul>
+             <li>Misthi-dohi</li>
+             <li>Rashgula</li>
+             <li>Luchi</li>
+             <li>cholar dal</li>
+         </ul>
+          <h2 class="tom"> Tamilnadu </h2>
+         <ul>
+            <li>Idali</li>
+            <li>Vada-Sambar</li>
+            <li>Uthappa</li>
+            <li>Dosa</li>
+        </ul>
+        <h2 class="tom"> Gujrat </h2>
+        <ul>
+            <li>Dhokla</li>
+            <li>Jalebi</li>
+            <li>Fafda</li>
+            <li>Patra</li>
+        </ul>
+     </div>
+        </body>
+</html>
+//Css code
+.ani
+{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 200px;
+    border-radius: 100%;
+}
+.ani1
+{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 450px;
+    font-family: 'Mate SC', serif;
+}
+h1
+{
+    position: absolute;
+    margin-left: 550px;
+    font-size: 75px;
+    font-family: 'Mate SC', serif;
+}
+.ani2
+{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 600px;
+    margin-left: 500px;
+    font-family: 'Mate SC', serif;
+}
+.btn {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 700px;
+    background: #d93460;
+    background-image: -webkit-linear-gradient(top, #d93460, #b8682b);
+    background-image: -moz-linear-gradient(top, #d93460, #b8682b);
+    background-image: -ms-linear-gradient(top, #d93460, #b8682b);
+    background-image: -o-linear-gradient(top, #d93460, #b8682b);
+    background-image: linear-gradient(to bottom, #d93460, #b8682b);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #080808;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #445257;
+    background-image: -webkit-linear-gradient(top, #445257, #3498db);
+    background-image: -moz-linear-gradient(top, #445257, #3498db);
+    background-image: -ms-linear-gradient(top, #445257, #3498db);
+    background-image: -o-linear-gradient(top, #445257, #3498db);
+    background-image: linear-gradient(to bottom, #445257, #3498db);
+    text-decoration: none;
+  }
+  
+  h2
+  {
+    font-family: 'Mate SC', serif;
+  }
+  h3
+  {
+    font-family: 'Mate SC', serif;
+      font-size: 15px;
+  }
+  .tom
+  {
+      color:#161d6f;
+  }
+
+
+
+
+
